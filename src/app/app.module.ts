@@ -8,6 +8,7 @@ import { UsuariosFormComponent } from './usuarios-form/usuarios-form.component';
 import { CarrosListagemComponent } from './carros-listagem/carros-listagem.component';
 import { CarrosFormComponent } from './carros-form/carros-form.component';
 import { HomeComponent } from './home/home.component';
+import { UsuariosService } from './usuarios.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [UsuariosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
