@@ -1,9 +1,9 @@
 {
-  "name": "pitang-car-user-system-app",
+  "name": "PitangCarUserSystem-App",
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
