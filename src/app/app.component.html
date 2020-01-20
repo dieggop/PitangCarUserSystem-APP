@@ -10,14 +10,13 @@
   <div class="wrapper">
 
     <div class="container">
-      <h1>Sistema de Usuários de Carros</h1>
-      <a routerLink="/usuarios" routerLinkActive="active" >Cadastro de Usuários</a>
-      <a routerLink="/carros" routerLinkActive="active">Area Logada / Controle  de Carros</a>
+      <h1><a routerLink="/" >Sistema de Usuários de Carros</a></h1>
+      <a class="botao" routerLink="/usuarios" routerLinkActive="active" >Cadastro de Usuários</a>
+      <a class="botao" routerLink="/carros" routerLinkActive="active">Area Logada / Controle  de Carros</a>
     </div>
-              <div class="container">
-                <router-outlet></router-outlet>
-
-                </div>
+    <div class="container">
+      <router-outlet></router-outlet>
+    </div>
 
   </div>
 </body>

@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   .container {
     text-align: center;
     width: 100%;
@@ -11,17 +12,15 @@
     border-radius: 4px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     padding: 30px;
-    margin: 80px auto;
 
     h1 {
       font-size: 20px;
       color: #418C35;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       align-items: center;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
 
-    a {
+    a.botao {
       margin: 5px 2px  0;
       padding: 10px;
       height: 44px;

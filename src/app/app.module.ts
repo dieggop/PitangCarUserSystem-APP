@@ -9,7 +9,7 @@ import { CarrosListagemComponent } from './carros-listagem/carros-listagem.compo
 import { CarrosFormComponent } from './carros-form/carros-form.component';
 import { HomeComponent } from './home/home.component';
 import { UsuariosService } from './usuarios.service';
-
+import {FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +22,9 @@ import { UsuariosService } from './usuarios.service';
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [UsuariosService],
   bootstrap: [AppComponent]

@@ -1,6 +1,6 @@
 <h2>Lista de Usuários</h2>
 <ul>
   <li *ngFor="let u of usuarios">
-    <b>Usuário</b>: {{u.firstName}} | <b>Carros</b>: {{u.cars.length}}
+    <b>Usuário</b>: {{u.firstName}} | <b>Carros</b>: {{u.cars.length}} <a routerLink="/usuarios/{{u.id}}/view" routerLinkActive="active">ver</a>
   </li>
 </ul>
