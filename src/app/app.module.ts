@@ -3,10 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { UsuariosListagemComponent } from './usuarios-listagem/usuarios-listagem.component';
+import { UsuariosFormComponent } from './usuarios-form/usuarios-form.component';
+import { CarrosListagemComponent } from './carros-listagem/carros-listagem.component';
+import { CarrosFormComponent } from './carros-form/carros-form.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UsuariosListagemComponent,
+    UsuariosFormComponent,
+    CarrosListagemComponent,
+    CarrosFormComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
