@@ -1,4 +1,6 @@
-export interface Carros {
+import { Carros } from '../models/carros';
+
+export class Carro implements Carros {
   id: number;
   year: number;
   licensePlate: string;
@@ -6,4 +8,3 @@ export interface Carros {
   color: string;
   count: number;
 }
-

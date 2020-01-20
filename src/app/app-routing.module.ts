@@ -1,3 +1,4 @@
+import { UsuariosFormComponent } from './usuarios-form/usuarios-form.component';
 import { CarrosListagemComponent } from './carros-listagem/carros-listagem.component';
 import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
@@ -8,6 +9,7 @@ import { UsuariosListagemComponent } from './usuarios-listagem/usuarios-listagem
 const routes: Routes = [
 {path: '', component: HomeComponent},
 {path: 'usuarios', component: UsuariosListagemComponent},
+{path: 'usuarios/:id/view', component: UsuariosFormComponent},
 {path: 'carros', component: CarrosListagemComponent},
 ];
 

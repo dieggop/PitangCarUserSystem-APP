@@ -17,6 +17,6 @@ export class UsuariosListagemComponent implements OnInit {
   }
   listar() {
    this.usuarioService.listar().subscribe(arg => this.usuarios = arg.usuarios);
-
   }
+
 }
