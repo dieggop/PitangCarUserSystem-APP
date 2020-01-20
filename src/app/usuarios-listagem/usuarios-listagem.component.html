@@ -1,6 +1,6 @@
-<p>Lista de Usuários</p>
+<h2>Lista de Usuários</h2>
 <ul>
   <li *ngFor="let u of usuarios">
-    {{u.firstName}}
+    <b>Usuário</b>: {{u.firstName}} | <b>Carros</b>: {{u.cars.length}}
   </li>
 </ul>
