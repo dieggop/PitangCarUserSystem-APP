@@ -7,7 +7,7 @@ import { Usuarios } from './models/usuarios';
 })
 export class UsuariosService {
 
-  constatosUrl = 'http://localhost:8080/api/users';
+  constatosUrl = 'https://pitangcarusersystem.herokuapp.com/api/users';
   httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json',
     'Access-Control-Allow-Methods': 'POST, PUT, DELETE',
